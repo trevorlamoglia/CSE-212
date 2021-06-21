@@ -1,0 +1,15 @@
+Fixed Arrays
+
+Rules:
+1. All items in the array are the same size.
+2. All memory in the array is contiguous.
+
+Formula:
+memory(index) = starting_address + (index * item_size)
+
+Dynamic Array
+Step one: Double size (array)
+Step two: Copy (string)
+Step three: Add (string)
+Step four: Delete (old array)
+Step five: Use (new array)
