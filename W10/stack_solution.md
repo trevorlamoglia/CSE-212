@@ -1,3 +1,4 @@
+```python
 class Stack:
     
     def __init__(self):
@@ -21,9 +22,6 @@ class Stack:
         self.back -= 1
         return item
 
-    # def size(self):
-    #     return self.back
-
 # Test Cases
 new_stack = Stack()
 print(new_stack.push(1)) # True
@@ -36,8 +34,6 @@ print(new_stack.push(7)) # True
 print(new_stack.push(8)) # True
 print(new_stack.push(9)) # Stack is Full!
 
-# print(s.size()) # 8
-
 print(new_stack.pop()) # 8
 print(new_stack.pop()) # 7
 print(new_stack.pop()) # 6
@@ -47,5 +43,6 @@ print(new_stack.pop()) # 3
 print(new_stack.pop()) # 2
 print(new_stack.pop()) # 1
 print(new_stack.pop()) # Stack is Empty!
+```
 
-# print(s.size()) # 0
+Back to [Stack](1-topic.md)
