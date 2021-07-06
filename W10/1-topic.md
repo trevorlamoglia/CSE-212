@@ -21,6 +21,10 @@ When we take a rock off the stack, we call this **pop** operation
 * push(value) - Adds 'value' at the back of stack – Time Complexity : O(1)
 * pop() - Deletes the back most item of the stack – Time Complexity : O(1)
 
+## Time Complexity / Performance
+
+
+
 ## Example Code in Python
 
 In Python, to *push* an item to the stack, we use the **append** function: `stack.append(value)`
@@ -100,5 +104,25 @@ print(new_stack.pop()) # Stack is Empty!
 
 Click here for [Solution](stack_solution.md)
 
+```python
+# Second Problem
+
+
+
+
+
+
+#
+
+
+
+
+
+
+
+
+
+#
+```
 
 [Go Back](0-welcome.md)
