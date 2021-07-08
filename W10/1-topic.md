@@ -16,14 +16,14 @@ When we take a rock off the stack, we call this **pop** operation
 
 ## Common Stack Operation:
 
-* empty() - Returns if the stack is empty or length of stack is zero – Time Complexity : O(1)
-* size() - Returns the size of the stack – Time Complexity : O(1)
-* push(value) - Adds 'value' at the back of stack – Time Complexity : O(1)
-* pop() - Deletes the back most item of the stack – Time Complexity : O(1)
+* empty() - Returns if the stack is empty or length of stack is zero
+* size() - Returns the size of the stack
+* push(value) - Adds 'value' at the back of stack
+* pop() - Deletes the back most item of the stack
 
 ## Time Complexity / Performance
 
-
+The common stack operations above are in the **Constant Time** complexity. A constant time is an O(1). An algorithm is said to have a constant time when it is not dependent on the input data (n). No matter the size of the input data, the running time will always be the same.
 
 ## Example Code in Python
 
@@ -58,6 +58,33 @@ print(sustenance)
 ## Problem to Solve
 
 ```python
+# First Problem
+stack = []
+ 
+# append() function to push
+# element in the stack
+stack.('a')
+stack.('b')
+stack.('c')
+ 
+# print initial stack 
+print('Initial stack')
+
+ 
+# pop() function to pop
+# element from stack
+print('\nElements popped from stack:')
+print(stack.())
+print(stack.())
+print(stack.())
+ 
+print('\nStack after elements are popped:')
+print(stack)
+```
+
+```python
+# Second Problem
+
 class Stack():
 
     def __init__(self):
@@ -103,26 +130,5 @@ print(new_stack.pop()) # Stack is Empty!
 ```
 
 Click here for [Solution](stack_solution.md)
-
-```python
-# Second Problem
-
-
-
-
-
-
-#
-
-
-
-
-
-
-
-
-
-#
-```
 
 [Go Back](0-welcome.md)

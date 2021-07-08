@@ -1,3 +1,4 @@
+```python
 stack = []
  
 # append() function to push
@@ -19,3 +20,4 @@ print(stack.pop())
  
 print('\nStack after elements are popped:')
 print(stack)
+```

@@ -13,10 +13,14 @@ Sets are useful for finding duplicates and summarizing data. It performs fast wh
 
 ## Common Linked List Operation
 
-* add(value) - Adds 'value' to the set – Time Complexity : O(1)
-* remove(value) - Removes 'value' from the set – Time Complexity : O(1)
-* member(value) - Determines if 'value' is in the set – Time Complexity : O(1)
-* size() - Returns number of items in the set – Time Complexity : O(1)
+* add(value) - Adds 'value' to the set
+* remove(value) - Removes 'value' from the set
+* member(value) - Determines if 'value' is in the set
+* size() - Returns number of items in the set
+
+## Time Complexity / Performance
+
+Similary to the previous topic, linked list operations are also in the **Constant Time** complexity. No matter the size of the input data, the running time will always be the same.
 
 ## Example Code in Python
 
