@@ -27,7 +27,8 @@ print(f'Your favorite drinks are: {drink}')
 food_and_drink = food | drink
 print(f'Sustenance: {food_and_drink}')
 
-# Remove you least favorite food in the union of sets
+# Remove your least favorite food in the union of sets
+# then create another union of sets with the new set
 food.remove('Burgers')
 food_and_drink = food | drink
 print(f'Sustenance: {food_and_drink}')

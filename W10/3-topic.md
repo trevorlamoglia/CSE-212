@@ -26,31 +26,59 @@ Nodes that are left and right of any parent node form a **subtree**. There is al
 
 Non-linear data structure - data items that are not organized sequentially
 
-### Balanced Binary Search Tree
+## Common BST Operation:
 
+* insert(value) - Insert 'value' into the tree
+* remove(value) - Remove 'value' from the tree
+* contains(value) - Determine if 'value is in the tree
+* traverse_forward - Visit all objects from smallest to largest
+* traverse_reverse - Visit all objects from largest to smallest
+* height(node) - Determine the height of node.
+* size() - Return the size of BST
+* empty() - Returns true if root node is empty. 
 
+## Time Complexity / Performance
 
+Most BST operations above are in the **Logarithmic Time** Complexity except for the last two. A logarithmic time is an O(log n). An algorithm is said to have a logarithmic time complexity when it reduces the size of the input data in each step. It doesn't need to look at all values of the input data.
 
-## Common Stack Operation:
+## Recursion
 
+**Recursion** is a technique where a function calls itself. When using recursion, we follow two important rules:
 
-
-
+* Smaller Problem - we need to make sure we are calling the function on a **smaller problem**. Without this rule, our function will run forever.
+* As we continue to call the function on a smaller problem, we need a place to stop. We must define a scenario in which recursion is not required. This is called the **base case**.
 
 ## Example Code in Python
 
+### Inserting into a BST
 
 
 
-
-
-
+### Traversing a BST
 
 
 
 
 
 ## Problem to Solve
+
+```python
+# Problem 1
+
+
+
+```
+
+Click here
+
+```python
+# Problem 2
+
+
+
+```
+
+Click here
 
 
 

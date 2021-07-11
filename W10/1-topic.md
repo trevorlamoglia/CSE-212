@@ -61,18 +61,18 @@ print(sustenance)
 # First Problem
 stack = []
  
-# append() function to push
-# element in the stack
+# add the append() function to 
+# push element in the stack
 stack.('a')
 stack.('b')
 stack.('c')
  
 # print initial stack 
 print('Initial stack')
+print(stack)
 
- 
-# pop() function to pop
-# element from stack
+# add the pop() function to 
+# pop element from stack
 print('\nElements popped from stack:')
 print(stack.())
 print(stack.())
@@ -81,6 +81,8 @@ print(stack.())
 print('\nStack after elements are popped:')
 print(stack)
 ```
+
+Click here for [Solution](stack_problem1_solution.md)
 
 ```python
 # Second Problem
@@ -129,6 +131,6 @@ print(new_stack.pop()) # 1
 print(new_stack.pop()) # Stack is Empty!
 ```
 
-Click here for [Solution](stack_solution.md)
+Click here for [Solution](stack_problem2_solution.md)
 
 [Go Back](0-welcome.md)

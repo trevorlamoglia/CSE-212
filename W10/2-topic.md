@@ -146,7 +146,6 @@ print(f'Sustenance: {food_and_drink}')
 # Remove you least favorite food in the union of sets
 # then create another union of sets with the new set
 
-
 print(f'Sustenance: {}')
 ```
 
