@@ -52,39 +52,77 @@ Most BST operations above are in the **Logarithmic Time** Complexity except for 
 
 ### Inserting into a BST
 
+```python
+def insert(self, data):
+    if self.root is None:
+		self.root = BST.Node(data)
+	else:
+		self._insert(data, self.root)
 
+def _insert(self, data, node):
+    if data < node.data:
+		if node.left is None:
+			node.left = BST.Node(data)
+		else:
+			self._insert(data, node.left)
+	elif data >= node.data:
+		if node.right is None:
+			node.right = BST.Node(data)
+		else:
+			self._insert(data, node.right)
+```
 
 ### Traversing a BST
 
+```python
+def __iter__(self):
+    yield from self._traverse_forward(self.root)
 
-
-
+def _traverse_forward(self, node):
+'''
+The keyword 'yield' will return the value for the 'for' loop to use.  When the 'for' loop wants to get the next value, the code in this function will start back up where the last 'yield' returned a value.  The keyword 'yield from' is used when our generator function needs to call another function for which a `yield` will be called. In other words, the `yield` is delegated by the generator function to another function.
+'''
+    if node is not None:
+		yield from self._traverse_forward(node.left)
+		yield node.data
+		yield from self._traverse_forward(node.right)
+```
 
 ## Problem to Solve
 
 ```python
-# Problem 1
+class Node:
+    def __init__(self, data):
+        self.left = None
+        self.right = None
+        self.data = data
+ 
+    def insert(self, data):
+        # HINT: This problem is similar
+        # to the _insert function above
+        pass
+ 
+# Print the tree
+    def print(self):
+        if self.left:
+            self.left.print()
+        print(self.data),
+        if self.right:
+            self.right.print()
 
-
-
+root = Node(12)
+root.insert(6)
+root.insert(14)
+root.insert(3)
+ 
+root.print()
 ```
 
-Click here
+Click here for [Solution](tree_problem1_solution.md)
 
 ```python
-# Problem 2
-
-
 
 ```
-
-Click here
-
-
-
-
-
-
 
 
 [Go Back](0-welcome.md)
