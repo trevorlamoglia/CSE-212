@@ -21,3 +21,5 @@ print(stack.pop())
 print('\nStack after elements are popped:')
 print(stack)
 ```
+
+Back to [Stack](1-topic.md)

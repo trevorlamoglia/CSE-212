@@ -33,3 +33,5 @@ food.remove('Burgers')
 food_and_drink = food | drink
 print(f'Sustenance: {food_and_drink}')
 ```
+
+Back to [Set](2-topic.md)

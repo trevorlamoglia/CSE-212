@@ -4,7 +4,7 @@
 
 ## Tree
 
-Similar to linked lists, **Trees** are connected to multiple different nodes and are connected together by pointers. We will look at the following types of trees: **binary trees**, **binary search trees**, and **balanced binary search trees**
+Similar to linked lists, **Trees** are connected to multiple different nodes and are connected together by pointers. We will look at the two types of trees: **binary trees**, **binary search trees**
 
 ### Binary Tree
 
@@ -47,6 +47,20 @@ Most BST operations above are in the **Logarithmic Time** Complexity except for 
 
 * Smaller Problem - we need to make sure we are calling the function on a **smaller problem**. Without this rule, our function will run forever.
 * As we continue to call the function on a smaller problem, we need a place to stop. We must define a scenario in which recursion is not required. This is called the **base case**.
+
+## Advantages
+
+* Good for representing hierarchical relationships
+* Dynamic size, great at scale
+* Quick insert and delete operations
+* In a binary search tree, inserted nodes are sequenced immediately
+* Binary search trees are efficient at searches
+
+## Disadvantages
+
+* Time expensive, to modify or “balance” trees or retrieve elements from a known location
+* Child nodes hold no information on their parent node and can be hard to traverse backwards
+* Only works for lists that are sorted. Unsorted data degrades into linear search
 
 ## Example Code in Python
 
@@ -91,6 +105,11 @@ The keyword 'yield' will return the value for the 'for' loop to use.  When the '
 ## Problem to Solve
 
 ```python
+'''
+This problem will look for a place to insert a node. With the
+hint and resources above, put in your code in the insert function
+to complete this program.
+'''
 class Node:
     def __init__(self, data):
         self.left = None
@@ -115,14 +134,25 @@ root.insert(6)
 root.insert(14)
 root.insert(3)
  
-root.print()
+root.print() # 3, 6, 12, 14
 ```
 
 Click here for [Solution](tree_problem1_solution.md)
 
 ```python
+'''
+This problem is a simple one.  Using the resources above and the
+hint, figure out the code for the _traverse_backward function.
+'''
+def __reversed__(self):
+    yield from self._traverse_backward(self.root)
 
+def _traverse_backward(self, node):
+    # HINT: this problem is similar to
+    # the _traverse_forward function above
+    pass
 ```
 
+Click here for [Solution](tree_problem2_solution.md)
 
 [Go Back](0-welcome.md)

@@ -11,7 +11,7 @@ The python **set** data structure is a collection of items which order is not im
 
 Sets are useful for finding duplicates and summarizing data. It performs fast when adding, removing or finding elements.
 
-## Common Linked List Operation
+## Common Set Operation
 
 * add(value) - Adds 'value' to the set
 * remove(value) - Removes 'value' from the set
@@ -20,7 +20,18 @@ Sets are useful for finding duplicates and summarizing data. It performs fast wh
 
 ## Time Complexity / Performance
 
-Similary to the previous topic, linked list operations are also in the **Constant Time** complexity. No matter the size of the input data, the running time will always be the same.
+Similary to the previous topic, set operations are also in the **Constant Time** complexity. No matter the size of the input data, the running time will always be the same.
+
+## Advantages
+
+* Fast peformance for adding, removing, and finding
+* Performing mathematical set operations such as an intersection  and union
+* Finding the unique values in a list
+
+## Disadvantages
+
+* No duplicates are allowed
+* The set does not keep values in order
 
 ## Example Code in Python
 
@@ -149,7 +160,7 @@ print(f'Sustenance: {food_and_drink}')
 print(f'Sustenance: {}')
 ```
 
-Click here for [Solution](sets_simple_solution.md)
+Click here for [Solution](sets_problem1_solution.md)
 
 ```python
 # A little more Complex Problem

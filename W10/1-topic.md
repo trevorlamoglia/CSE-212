@@ -25,6 +25,17 @@ When we take a rock off the stack, we call this **pop** operation
 
 The common stack operations above are in the **Constant Time** complexity. A constant time is an O(1). An algorithm is said to have a constant time when it is not dependent on the input data (n). No matter the size of the input data, the running time will always be the same.
 
+## Advantages
+
+* Offers LIFO data management that’s impossible with arrays
+* Automatic scaling and object cleanup
+* Simple and reliable data storage system
+
+## Disadvantages
+
+* Stack memory is limited
+* Too many objects on the stack leads to a stack overflow error
+
 ## Example Code in Python
 
 In Python, to *push* an item to the stack, we use the **append** function: `stack.append(value)`
@@ -86,7 +97,10 @@ Click here for [Solution](stack_problem1_solution.md)
 
 ```python
 # Second Problem
-
+'''
+With the resources above, figure out the code for the push and 
+pop function to get the results from the test cases at the end.
+'''
 class Stack():
 
     def __init__(self):

@@ -14,3 +14,5 @@ def insert(self, data):
         else:
             self.data = data
 ```
+
+Back to [Tree](3-topic.md)

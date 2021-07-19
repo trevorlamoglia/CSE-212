@@ -29,3 +29,5 @@ print(union(bball, vball))
 sport = ['A', 'B', 'C', 'C', 'G', 'H', 'H', 'I', 'J', 'J', 'M', 'M', 'R', 'R', 'T', 'T', 'Z']
 print(duplicates(sport)) # 6
 ```
+
+Back to [Set](2-topic.md)
